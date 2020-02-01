@@ -1,0 +1,62 @@
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+body {
+background-color: stone;
+}
+
+.square{
+  top: 30px;
+  width:100.5px;
+  height:320px;
+  border:3px;
+  background-color: black;
+  position: relative;
+  left: 45%;
+
+
+ 
+}
+
+#svg1, #svg2, #svg3 {
+  width: 3.5in; 
+  height: 1in;
+ 
+}
+
+#circle1 {
+  top:2px;
+  height: 95px;
+  width: 95px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  left: 3px;
+ 
+}
+
+#circle2 {
+  top:105px;
+  height: 95px;
+  width: 95px;
+  background-color: yellow;
+  border-radius: 50%;
+  position: absolute;
+  left: 3px;
+ 
+}
+
+#circle3 {
+  top: 210px;
+  height: 95px;
+  width: 95px;
+  background-color: green;
+  border-radius: 250%;
+  position: absolute;
+  left: 3px;
+ 
+}
