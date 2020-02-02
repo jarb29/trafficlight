@@ -27,7 +27,7 @@ export default class TrafficLigth extends React.Component{
         <div id="container">
               <div className={"red light " + redExtra} onClick={()=>this.setState({click:'red'})}></div>
               <div className= {"yellow light " + yelloExtra} onClick={()=>this.setState({click:'yellow'})}></div>
-              <div className= {"green light" + greenExtra} onClick={()=>this.setState({click:'green'})}></div>
+              <div className= {"green light " + greenExtra} onClick={()=>this.setState({click:'green'})}></div>
         </div>
         </>
             )
